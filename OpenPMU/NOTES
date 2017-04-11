@@ -1,0 +1,6 @@
+This is a modified version of Other World Computing's OpenPMU that adds M2 support.
+
+
+
+
+To work properly on M2, OpenPMU needs the SR and PMU interrupts listed under its "interrupts" property. So via-pmu's properties should look like:name			via-pmucompatible		via-pmu-m2interrupts		0000000A 0000000C [sr, pmu]

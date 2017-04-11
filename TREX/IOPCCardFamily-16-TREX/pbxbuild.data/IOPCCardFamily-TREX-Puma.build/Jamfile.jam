@@ -1,0 +1,160 @@
+# Jamfile for target "IOPCCardFamily-TREX-Puma" of project "IOPCCardFamily"
+
+
+JAVAC_SOURCE_FILE_ENCODING default = MacRoman ;
+
+# Implicitly computed project-wide settings for project
+export deferred DEVELOPMENT_LANGUAGE = English ;
+export deferred PROJECT = $(PROJECT_NAME) ;
+export deferred PROJECT_NAME = IOPCCardFamily ;
+export deferred SRCROOT = /Users/thewax/M2 KEXTs/NewTREX/IOPCCardFamily-16-TREX ;
+
+# User-defined project-wide settings for project
+
+# Target "IOPCCardFamily-TREX-Puma"
+
+export deferred _INFO_PLIST_FILE_PATH = "$(SRCROOT)/pbxbuild.data/IOPCCardFamily-TREX-Puma.build/Info.plist" ;
+export deferred _PKGINFO_FILE_PATH = "$(SRCROOT)/pbxbuild.data/IOPCCardFamily-TREX-Puma.build/PkgInfo" ;
+export deferred _PBDEVELOPMENT_PLIST_FILE_PATH = "$(SRCROOT)/pbxbuild.data/IOPCCardFamily-TREX-Puma.build/pbdevelopment.plist" ;
+
+# Implicitly computed build settings for target "IOPCCardFamily-TREX-Puma"
+export deferred CLONE_HEADERS = NO ;
+export deferred PFE_FILE_C_DIALECTS = c++ ;
+export deferred SKIP_INSTALL = YES ;
+export deferred TARGETNAME = $(TARGET_NAME) ;
+export deferred TARGET_NAME = "IOPCCardFamily-TREX-Puma" ;
+
+# User-defined build settings for target "IOPCCardFamily-TREX-Puma"
+export deferred DEBUGGING_SYMBOLS = NO ;
+export deferred FRAMEWORK_SEARCH_PATHS =  ;
+export deferred GCC_VERSION = 2.x ;
+export deferred HEADER_SEARCH_PATHS = "$(SYSTEM_DEVELOPER_DIR)/xnu-123.5-headers" ;
+export deferred KERNEL_MODULE = YES ;
+export deferred LIBRARY_SEARCH_PATHS =  ;
+export deferred MODULE_IOKIT = YES ;
+export deferred MODULE_NAME = com.apple.iokit.IOPCCardFamily ;
+export deferred MODULE_VERSION = 1.1.0 ;
+export deferred OTHER_CFLAGS =  -no-cpp-precomp -D_BIG_ENDIAN -DTREX ;
+export deferred OTHER_LDFLAGS =  ;
+export deferred OTHER_REZFLAGS =  ;
+export deferred PRODUCT_NAME = IOPCCardFamily ;
+export deferred SECTORDER_FLAGS =  ;
+export deferred USE_GCC3_PFE_SUPPORT = NO ;
+export deferred WARNING_CFLAGS = -Wmost -fpermissive -Wno-four-char-constants  -Wno-unknown-pragmas -Wno-format ;
+export deferred WRAPPER_EXTENSION = kext ;
+
+if "$(BUILD_STYLE)" = Development {
+	export deferred COPY_PHASE_STRIP = NO ;
+	export deferred OTHER_CFLAGS +=  -no-cpp-precomp -D_BIG_ENDIAN -DCHEETAH_STYLE_PM -DTREX -DPCMCIA_DEBUG=0 ;
+}
+
+if "$(BUILD_STYLE)" = Deployment {
+	export deferred COPY_PHASE_STRIP = YES ;
+}
+
+
+ConditionalDefinitions _ ;
+commitdeferred ;
+
+
+BeginBundle "<IOPCCardFamily>IOPCCardFamily.kext" ;
+
+# Headers
+modules/cirrus.h_ATTRIBUTES = ;
+modules/cs_internal.h_ATTRIBUTES = ;
+pccard/bulkmem.h_ATTRIBUTES = ;
+pccard/bus_ops.h_ATTRIBUTES = ;
+pccard/cistpl.h_ATTRIBUTES = ;
+pccard/config.h_ATTRIBUTES = ;
+pccard/cs.h_ATTRIBUTES = ;
+pccard/cs_types.h_ATTRIBUTES = ;
+pccard/k_compat.h_ATTRIBUTES = ;
+pccard/ss.h_ATTRIBUTES = ;
+pccard/version.h_ATTRIBUTES = ;
+pccard/IOCardBusDevice.h_ATTRIBUTES = ;
+pccard/IOPCCard16Device.h_ATTRIBUTES = ;
+pccard/IOPCCardBridge.h_ATTRIBUTES = ;
+pccard/IOPCCard.h_ATTRIBUTES = ;
+HEADERS =
+	modules/cirrus.h
+	modules/cs_internal.h
+	modules/o2micro.h
+	modules/pio.h
+	modules/ricoh.h
+	modules/rsrc_mgr.h
+	modules/smc34c90.h
+	modules/ti113x.h
+	modules/topic.h
+	modules/vg468.h
+	modules/yenta.h
+	pccard/bulkmem.h
+	pccard/bus_ops.h
+	pccard/cisreg.h
+	pccard/cistpl.h
+	pccard/config.h
+	pccard/cs.h
+	pccard/cs_types.h
+	pccard/k_compat.h
+	pccard/ss.h
+	pccard/version.h
+	pccard/IOCardBusDevice.h
+	pccard/IOPCCard16Device.h
+	pccard/IOPCCard16Enabler.h
+	pccard/IOPCCardBridge.h
+	pccard/IOPCCard.h
+	modules/i82365.h
+	trex/trexss.h
+	trex/TREXRegisters.h
+	pccard/IOPCCardEjectController.h
+	ExtraHeaderStuff.h ;
+ProcessHeaders "<IOPCCardFamily>IOPCCardFamily.kext" : "$(HEADERS)" : "" : BPTag000 ;
+
+# Script Build Phase Files
+SCRIPT_BUILD_PHASE_FILES = "$(SRCROOT)/pbxbuild.data/IOPCCardFamily-TREX-Puma.build/BPTag001-script.sh" ;
+ProcessScriptBuildPhaseFiles "<IOPCCardFamily>IOPCCardFamily.kext" : "$(SCRIPT_BUILD_PHASE_FILES)" : BPTag000 : BPTag001 ;
+
+# Resources
+English.lproj/InfoPlist.strings_REGION = English ;
+RESOURCES = English.lproj/InfoPlist.strings ;
+ProcessResources "<IOPCCardFamily>IOPCCardFamily.kext" : "$(RESOURCES)" : BPTag001 : BPTag002 ;
+
+# Sources
+modules/IOPCCardDevices.cpp_ATTRIBUTES = ;
+modules/IOPCCardSupport.cpp_ATTRIBUTES = ;
+modules/bulkmem.cpp_ATTRIBUTES = ;
+modules/cardbus.cpp_ATTRIBUTES = ;
+modules/cistpl.cpp_ATTRIBUTES = ;
+modules/cs.cpp_ATTRIBUTES = ;
+modules/i82365.cpp_ATTRIBUTES = ;
+SOURCES =
+	modules/IOPCCardBridge.cpp
+	modules/IOPCCardDevices.cpp
+	modules/IOPCCardSupport.cpp
+	modules/bulkmem.cpp
+	modules/cardbus.cpp
+	modules/cistpl.cpp
+	modules/cs.cpp
+	modules/i82365.cpp
+	trex/TREXPCCard16Bridge.cpp
+	trex/trexss.cpp
+	modules/IOPCCard16Enabler.cpp
+	modules/IOPCCardEjectController.cpp
+	modules/rsrc_mgr.cpp ;
+ProcessSources "<IOPCCardFamily>IOPCCardFamily.kext" : "$(SOURCES)" : BPTag002 : BPTag003 ;
+
+# Frameworks & Libraries
+FRAMEWORKS_AND_LIBRARIES = ;
+ProcessFrameworksAndLibraries "<IOPCCardFamily>IOPCCardFamily.kext" : "$(FRAMEWORKS_AND_LIBRARIES)" : BPTag003 : BPTag004 ;
+
+# Rez Files
+REZ_FILES = ;
+ProcessRezFiles "<IOPCCardFamily>IOPCCardFamily.kext" : "$(REZ_FILES)" : BPTag004 : BPTag005 ;
+
+rule DefineHeaderDependencies
+{
+}
+
+DefineHeaderDependencies "<IOPCCardFamily>IOPCCardFamily.kext" ;
+
+EndBundle "<IOPCCardFamily>IOPCCardFamily.kext" ;
+

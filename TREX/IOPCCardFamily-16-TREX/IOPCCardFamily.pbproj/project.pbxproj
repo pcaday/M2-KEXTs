@@ -1,0 +1,2371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		01228F11FF71C3DEC0A8010A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = BUGS;
+			refType = 4;
+		};
+		01228F13FF71C46AC0A8010A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = CHANGES;
+			refType = 4;
+		};
+		01228F14FF71C46AC0A8010A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = COPYING;
+			refType = 4;
+		};
+		01228F15FF71C46AC0A8010A = {
+			children = (
+				01228F16FF71C46AC0A8010A,
+				01228F17FF71C46AC0A8010A,
+				01228F18FF71C46AC0A8010A,
+				01228F19FF71C46AC0A8010A,
+			);
+			isa = PBXGroup;
+			path = doc;
+			refType = 4;
+		};
+		01228F16FF71C46AC0A8010A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = "PCMCIA-HOWTO";
+			refType = 4;
+		};
+		01228F17FF71C46AC0A8010A = {
+			isa = PBXFileReference;
+			path = "PCMCIA-HOWTO.ps";
+			refType = 4;
+		};
+		01228F18FF71C46AC0A8010A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = "PCMCIA-PROG";
+			refType = 4;
+		};
+		01228F19FF71C46AC0A8010A = {
+			isa = PBXFileReference;
+			path = "PCMCIA-PROG.ps";
+			refType = 4;
+		};
+		01228F1AFF71C46AC0A8010A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = LICENSE;
+			refType = 4;
+		};
+		01228F1BFF71C46AC0A8010A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = README;
+			refType = 4;
+		};
+		01228F1DFF71C46AC0A8010A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = APPLE_TODO;
+			refType = 4;
+		};
+		01A2A179FF9D20B011CA29D1 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OTHER_CFLAGS = "\U0001 -no-cpp-precomp -D_BIG_ENDIAN -DCHEETAH_STYLE_PM -DTREX -DPCMCIA_DEBUG=0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		01A2A17AFF9D20B011CA29D1 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		01CA7D6C000FEEBC11CA299A = {
+			fileRef = 089C167DFE841241C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01D330D8FF7FF22211CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = APPLE_LICENSE;
+			refType = 4;
+		};
+		01D330D9FF7FF22211CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = APPLE_README;
+			refType = 4;
+		};
+		01DBE90D00B4E20311CA299A = {
+			fileRef = 18928F08FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//010
+//011
+//012
+//013
+//014
+//020
+//021
+//022
+//023
+//024
+		0243829CFFCA1D9011CA299A = {
+			isa = PBXBundleReference;
+			path = IOPCCardFamily.kext;
+			refType = 3;
+		};
+//020
+//021
+//022
+//023
+//024
+//050
+//051
+//052
+//053
+//054
+		055627650134CD8002CA299A = {
+			fileRef = 0DA325A7FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//050
+//051
+//052
+//053
+//054
+//080
+//081
+//082
+//083
+//084
+		084B1DE1FFA6B2ED11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = IOPCCard16Enabler.h;
+			refType = 4;
+		};
+		084B1DE2FFA6B2ED11CA299A = {
+			fileRef = 084B1DE1FFA6B2ED11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		084B1DE3FFA6B77611CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = IOPCCard16Enabler.cpp;
+			refType = 4;
+		};
+		089C1669FE841209C02AAC07 = {
+			buildStyles = (
+				01A2A179FF9D20B011CA29D1,
+				01A2A17AFF9D20B011CA29D1,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				089C1673FE841209C02AAC07,
+				C6AA5E8C0E6CA2B8009C3FC0,
+				2D9C1A5FFFE6DFA911CA299A,
+				C6FDC11C0E2BFE1000004646,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				C60A85400E19104D00E01CA5,
+				0DA3259CFF6DAEDC11CA299A,
+				0DA3259BFF6DAE0A11CA299A,
+				C6FDC10A0E2BFC0300004646,
+				089C167CFE841241C02AAC07,
+				19C28FB6FE9D52B211CA2CBB,
+				C637A9320F631A5C00BC35C8,
+			);
+			isa = PBXGroup;
+			name = IOPCCardFamily;
+			refType = 4;
+		};
+		089C1673FE841209C02AAC07 = {
+			buildPhases = (
+				089C1674FE841209C02AAC07,
+				2D9C1A75FFE6E22811CA299A,
+				089C1675FE841209C02AAC07,
+				089C1676FE841209C02AAC07,
+				089C1677FE841209C02AAC07,
+				089C1679FE841209C02AAC07,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_VERSION = 2.x;
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_DEVELOPER_DIR)/xnu-123.5-headers\"";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.iokit.IOPCCardFamily;
+				MODULE_VERSION = 1.1.0;
+				OTHER_CFLAGS = " -no-cpp-precomp -D_BIG_ENDIAN -DTREX -DCHEETAH_STYLE_PM";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IOPCCardFamily;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = NO;
+				WARNING_CFLAGS = "-Wmost -fpermissive -Wno-four-char-constants  -Wno-unknown-pragmas -Wno-format";
+				WRAPPER_EXTENSION = kext;
+			};
+			dependencies = (
+				2D9C1A5EFFE6DFA911CA299A,
+			);
+			isa = PBXBundleTarget;
+			name = "IOPCCardFamily-TREX-Cheetah";
+			productName = IOPCCardFamily;
+			productReference = 0243829CFFCA1D9011CA299A;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>IOPCCardFamilyCheetah</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.iokit.IOPCCardFamily</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>IOPCCardFamily</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>IOPCCardFamily</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOPCCardFamily</string>
+			<key>Configuration Settings</key>
+			<dict>
+				<key>PowerBook</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAAAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAK////8=
+						</data>
+					</array>
+				</dict>
+				<key>PowerBook1,1</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAAAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>PowerBook3,1</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						8gAAAPIAD/8=
+						</data>
+						<data>
+						8gAgAPIA//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>PowerBook3,2</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						8gAAAPIAj/8=
+						</data>
+						<data>
+						8gCgAPIA//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>PowerBook3,3</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						8gAAAPIAj/8=
+						</data>
+						<data>
+						8gCgAPIA//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>Test Machine</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAQAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>X86PC</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						AAABAAAABP8=
+						</data>
+						<data>
+						AAAIAAAACP8=
+						</data>
+						<data>
+						AAAMAAAADP8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						AAwAAAAP//8=
+						</data>
+						<data>
+						oAAAAKD///8=
+						</data>
+						<data>
+						YAAAAGD///8=
+						</data>
+					</array>
+				</dict>
+			</dict>
+			<key>Debug Settings</key>
+			<dict>
+				<key>Card Bus</key>
+				<integer>3</integer>
+				<key>Card Services</key>
+				<integer>3</integer>
+				<key>Driver Services</key>
+				<integer>4</integer>
+				<key>i82365</key>
+				<integer>2</integer>
+			</dict>
+			<key>IOClass</key>
+			<string>IOPCCardBridge</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOPCIClassMatch</key>
+			<string>0x06070000</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>TREXPCCard16Bridge</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOPCCardFamily</string>
+			<key>Configuration Settings</key>
+			<dict>
+				<key>AAPL,1400</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAQAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>Test Machine</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAQAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>X86PC</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						AAABAAAABP8=
+						</data>
+						<data>
+						AAAIAAAACP8=
+						</data>
+						<data>
+						AAAMAAAADP8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						AAwAAAAP//8=
+						</data>
+						<data>
+						oAAAAKD///8=
+						</data>
+						<data>
+						YAAAAGD///8=
+						</data>
+					</array>
+				</dict>
+			</dict>
+			<key>Debug Settings</key>
+			<dict>
+				<key>Card Bus</key>
+				<integer>4</integer>
+				<key>Card Services</key>
+				<integer>4</integer>
+				<key>Driver Services</key>
+				<integer>4</integer>
+				<key>i82365</key>
+				<integer>4</integer>
+			</dict>
+			<key>IOClass</key>
+			<string>TREXPCCard16Bridge</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOPCIMatch</key>
+			<string>0x99999999</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.1.0</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.iokit</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.libkern</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.mach</key>
+		<string>1.0.0b1</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
+";
+		};
+		089C1674FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				0DA325A9FF6DB01811CA299A,
+				0DA325AAFF6DB01811CA299A,
+				0DA325ACFF6DB01811CA299A,
+				2D9C1A77FFE6FEC111CA299A,
+				0DA325BBFF6DB06911CA299A,
+				0DA325BCFF6DB06911CA299A,
+				0DA325BDFF6DB06911CA299A,
+				0DA325BEFF6DB06911CA299A,
+				0DA325BFFF6DB06911CA299A,
+				0DA325C0FF6DB06911CA299A,
+				0DA325C1FF6DB06911CA299A,
+				0DA325CCFF6DB14C11CA299A,
+				0DA325CDFF6DB14C11CA299A,
+				0BFD7954FF7AE85811CA299A,
+				0DA325CFFF6DB14C11CA299A,
+				0DA325D0FF6DB14C11CA299A,
+				0DA325D1FF6DB14C11CA299A,
+				0DA325D2FF6DB14C11CA299A,
+				0DEAC1CAFF6DB67711CA299A,
+				0DA325D7FF6DB16F11CA299A,
+				0DA325D8FF6DB16F11CA299A,
+				18928F0DFF704B7611CA299A,
+				18928F0CFF704B7611CA299A,
+				084B1DE2FFA6B2ED11CA299A,
+				18928F0EFF704B7611CA299A,
+				18928F0FFF704B7611CA299A,
+				055627650134CD8002CA299A,
+				C60A85440E19125100E01CA5,
+				C60A85930E1935B300E01CA5,
+				C67CE1DB0E2C34150009184C,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1675FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				01CA7D6C000FEEBC11CA299A,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1676FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				01DBE90D00B4E20311CA299A,
+				18928F11FF704B7611CA299A,
+				18928F12FF704B7611CA299A,
+				0DA3259EFF6DAF8811CA299A,
+				0DA325A0FF6DAFAC11CA299A,
+				0DA325ADFF6DB01811CA299A,
+				0DA325AEFF6DB01811CA299A,
+				0DA325B0FF6DB01811CA299A,
+				C60A85420E19107900E01CA5,
+				C60A858C0E19178A00E01CA5,
+				C60A85940E19573100E01CA5,
+				C6FDC1090E2BFBEA00004646,
+				C67AA4350E662AFD00A80203,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1677FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1679FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				089C167DFE841241C02AAC07,
+				01228F11FF71C3DEC0A8010A,
+				01228F13FF71C46AC0A8010A,
+				01228F14FF71C46AC0A8010A,
+				01228F15FF71C46AC0A8010A,
+				01228F1AFF71C46AC0A8010A,
+				01228F1BFF71C46AC0A8010A,
+				01228F1DFF71C46AC0A8010A,
+				01D330D8FF7FF22211CA299A,
+				01D330D9FF7FF22211CA299A,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		089C167DFE841241C02AAC07 = {
+			children = (
+				089C167EFE841241C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		089C167EFE841241C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//0B0
+//0B1
+//0B2
+//0B3
+//0B4
+		0BFD7954FF7AE85811CA299A = {
+			fileRef = 0DA325C5FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//0B0
+//0B1
+//0B2
+//0B3
+//0B4
+//0D0
+//0D1
+//0D2
+//0D3
+//0D4
+		0DA3259BFF6DAE0A11CA299A = {
+			children = (
+				18928F05FF704AFF11CA299A,
+				18928F07FF704AFF11CA299A,
+				18928F0BFF704AFF11CA299A,
+				18928F06FF704AFF11CA299A,
+				084B1DE1FFA6B2ED11CA299A,
+				C67CE1DA0E2C34150009184C,
+				0DA325C3FF6DB14C11CA299A,
+				0DA325C4FF6DB14C11CA299A,
+				0DA325C5FF6DB14C11CA299A,
+				0DA325C6FF6DB14C11CA299A,
+				0DA325C7FF6DB14C11CA299A,
+				0DA325C8FF6DB14C11CA299A,
+				0DA325C9FF6DB14C11CA299A,
+				0DEAC1C9FF6DB67711CA299A,
+				0DA325D5FF6DB16F11CA299A,
+				0DA325D6FF6DB16F11CA299A,
+			);
+			isa = PBXGroup;
+			path = pccard;
+			refType = 2;
+		};
+		0DA3259CFF6DAEDC11CA299A = {
+			children = (
+				18928F08FF704AFF11CA299A,
+				18928F09FF704AFF11CA299A,
+				084B1DE3FFA6B77611CA299A,
+				18928F0AFF704AFF11CA299A,
+				C6FDC1080E2BFBEA00004646,
+				0DA3259DFF6DAF8811CA299A,
+				0DA3259FFF6DAFAC11CA299A,
+				0DA325A1FF6DB01811CA299A,
+				0DA325A2FF6DB01811CA299A,
+				0DA325A3FF6DB01811CA299A,
+				0DA325A4FF6DB01811CA299A,
+				0DA325A6FF6DB01811CA299A,
+				0DA325A7FF6DB01811CA299A,
+				0DA325A8FF6DB01811CA299A,
+				0DA325B3FF6DB06911CA299A,
+				0DA325B4FF6DB06911CA299A,
+				0DA325B5FF6DB06911CA299A,
+				0DA325B6FF6DB06911CA299A,
+				0DA325B7FF6DB06911CA299A,
+				0DA325B8FF6DB06911CA299A,
+				0DA325B9FF6DB06911CA299A,
+				0DA325BAFF6DB06911CA299A,
+				2D9C1A76FFE6FEC111CA299A,
+			);
+			isa = PBXGroup;
+			path = modules;
+			refType = 4;
+		};
+		0DA3259DFF6DAF8811CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = bulkmem.cpp;
+			refType = 4;
+		};
+		0DA3259EFF6DAF8811CA299A = {
+			fileRef = 0DA3259DFF6DAF8811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA3259FFF6DAFAC11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = cardbus.cpp;
+			refType = 4;
+		};
+		0DA325A0FF6DAFAC11CA299A = {
+			fileRef = 0DA3259FFF6DAFAC11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325A1FF6DB01811CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = cirrus.h;
+			refType = 4;
+		};
+		0DA325A2FF6DB01811CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = cistpl.cpp;
+			refType = 4;
+		};
+		0DA325A3FF6DB01811CA299A = {
+			fileEncoding = 4;
+			indentWidth = 4;
+			isa = PBXFileReference;
+			path = cs.cpp;
+			refType = 4;
+			tabWidth = 8;
+			usesTabs = 0;
+		};
+		0DA325A4FF6DB01811CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = cs_internal.h;
+			refType = 4;
+		};
+		0DA325A6FF6DB01811CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = i82365.cpp;
+			refType = 4;
+		};
+		0DA325A7FF6DB01811CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = i82365.h;
+			refType = 4;
+		};
+		0DA325A8FF6DB01811CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = o2micro.h;
+			refType = 4;
+		};
+		0DA325A9FF6DB01811CA299A = {
+			fileRef = 0DA325A1FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325AAFF6DB01811CA299A = {
+			fileRef = 0DA325A4FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325ACFF6DB01811CA299A = {
+			fileRef = 0DA325A8FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0DA325ADFF6DB01811CA299A = {
+			fileRef = 0DA325A2FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325AEFF6DB01811CA299A = {
+			fileRef = 0DA325A3FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325B0FF6DB01811CA299A = {
+			fileRef = 0DA325A6FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325B3FF6DB06911CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = ricoh.h;
+			refType = 4;
+		};
+		0DA325B4FF6DB06911CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = rsrc_mgr.cpp;
+			refType = 4;
+		};
+		0DA325B5FF6DB06911CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = rsrc_mgr.h;
+			refType = 4;
+		};
+		0DA325B6FF6DB06911CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = smc34c90.h;
+			refType = 4;
+		};
+		0DA325B7FF6DB06911CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = ti113x.h;
+			refType = 4;
+		};
+		0DA325B8FF6DB06911CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = topic.h;
+			refType = 4;
+		};
+		0DA325B9FF6DB06911CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = vg468.h;
+			refType = 4;
+		};
+		0DA325BAFF6DB06911CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = yenta.h;
+			refType = 4;
+		};
+		0DA325BBFF6DB06911CA299A = {
+			fileRef = 0DA325B3FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0DA325BCFF6DB06911CA299A = {
+			fileRef = 0DA325B5FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0DA325BDFF6DB06911CA299A = {
+			fileRef = 0DA325B6FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0DA325BEFF6DB06911CA299A = {
+			fileRef = 0DA325B7FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0DA325BFFF6DB06911CA299A = {
+			fileRef = 0DA325B8FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0DA325C0FF6DB06911CA299A = {
+			fileRef = 0DA325B9FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0DA325C1FF6DB06911CA299A = {
+			fileRef = 0DA325BAFF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0DA325C3FF6DB14C11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = bulkmem.h;
+			refType = 4;
+		};
+		0DA325C4FF6DB14C11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = bus_ops.h;
+			refType = 4;
+		};
+		0DA325C5FF6DB14C11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = cisreg.h;
+			refType = 4;
+		};
+		0DA325C6FF6DB14C11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = cistpl.h;
+			refType = 4;
+		};
+		0DA325C7FF6DB14C11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = config.h;
+			refType = 4;
+		};
+		0DA325C8FF6DB14C11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = cs.h;
+			refType = 4;
+		};
+		0DA325C9FF6DB14C11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = cs_types.h;
+			refType = 4;
+		};
+		0DA325CCFF6DB14C11CA299A = {
+			fileRef = 0DA325C3FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325CDFF6DB14C11CA299A = {
+			fileRef = 0DA325C4FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325CFFF6DB14C11CA299A = {
+			fileRef = 0DA325C6FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325D0FF6DB14C11CA299A = {
+			fileRef = 0DA325C7FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325D1FF6DB14C11CA299A = {
+			fileRef = 0DA325C8FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325D2FF6DB14C11CA299A = {
+			fileRef = 0DA325C9FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325D5FF6DB16F11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = ss.h;
+			refType = 4;
+		};
+		0DA325D6FF6DB16F11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = version.h;
+			refType = 4;
+		};
+		0DA325D7FF6DB16F11CA299A = {
+			fileRef = 0DA325D5FF6DB16F11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DA325D8FF6DB16F11CA299A = {
+			fileRef = 0DA325D6FF6DB16F11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		0DEAC1C9FF6DB67711CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = k_compat.h;
+			refType = 4;
+		};
+		0DEAC1CAFF6DB67711CA299A = {
+			fileRef = 0DEAC1C9FF6DB67711CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+//0D0
+//0D1
+//0D2
+//0D3
+//0D4
+//180
+//181
+//182
+//183
+//184
+		18928F05FF704AFF11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = IOPCCard.h;
+			path = pccard/IOPCCard.h;
+			refType = 2;
+		};
+		18928F06FF704AFF11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = IOPCCard16Device.h;
+			path = pccard/IOPCCard16Device.h;
+			refType = 2;
+		};
+		18928F07FF704AFF11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = IOPCCardBridge.h;
+			path = pccard/IOPCCardBridge.h;
+			refType = 2;
+		};
+		18928F08FF704AFF11CA299A = {
+			fileEncoding = 4;
+			indentWidth = 4;
+			isa = PBXFileReference;
+			path = IOPCCardBridge.cpp;
+			refType = 4;
+			tabWidth = 8;
+			usesTabs = 1;
+		};
+		18928F09FF704AFF11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = IOPCCardDevices.cpp;
+			refType = 4;
+		};
+		18928F0AFF704AFF11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = IOPCCardSupport.cpp;
+			refType = 4;
+		};
+		18928F0BFF704AFF11CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = IOCardBusDevice.h;
+			path = pccard/IOCardBusDevice.h;
+			refType = 2;
+		};
+		18928F0CFF704B7611CA299A = {
+			fileRef = 18928F06FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		18928F0DFF704B7611CA299A = {
+			fileRef = 18928F0BFF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		18928F0EFF704B7611CA299A = {
+			fileRef = 18928F07FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		18928F0FFF704B7611CA299A = {
+			fileRef = 18928F05FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		18928F11FF704B7611CA299A = {
+			fileRef = 18928F09FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		18928F12FF704B7611CA299A = {
+			fileRef = 18928F0AFF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+//180
+//181
+//182
+//183
+//184
+//190
+//191
+//192
+//193
+//194
+		19C28FB6FE9D52B211CA2CBB = {
+			children = (
+				0243829CFFCA1D9011CA299A,
+				2D9C1A5DFFE6DFA911CA299A,
+				C6FDC11D0E2BFE1000004646,
+				C6AA5EC00E6CA2B8009C3FC0,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//2D0
+//2D1
+//2D2
+//2D3
+//2D4
+		2D9C1A5DFFE6DFA911CA299A = {
+			isa = PBXExecutableFileReference;
+			path = InstallHeaders;
+			refType = 3;
+		};
+		2D9C1A5EFFE6DFA911CA299A = {
+			isa = PBXTargetDependency;
+			target = 2D9C1A5FFFE6DFA911CA299A;
+		};
+		2D9C1A5FFFE6DFA911CA299A = {
+			buildPhases = (
+				2D9C1A60FFE6DFA911CA299A,
+				2D9C1A61FFE6DFA911CA299A,
+				2D9C1A62FFE6DFA911CA299A,
+				2D9C1A65FFE6E00911CA299A,
+				2D9C1A63FFE6DFA911CA299A,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = 2.x;
+				INSTALLHDRS_COPY_PHASE = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/pccard";
+				OTHER_CFLAGS = "-DTREX";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = InstallHeaders;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = NO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = InstallHeaders;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/pccard";
+			productName = InstallHeaders;
+			productReference = 2D9C1A5DFFE6DFA911CA299A;
+		};
+		2D9C1A60FFE6DFA911CA299A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9C1A61FFE6DFA911CA299A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9C1A62FFE6DFA911CA299A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9C1A63FFE6DFA911CA299A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9C1A65FFE6E00911CA299A = {
+			buildActionMask = 8;
+			dstPath = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/pccard";
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2D9C1A75FFE6E22811CA299A = {
+			buildActionMask = 12;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$DERIVED_SOURCES_DIR/IOKit\" && ln -sf \"$SRCROOT/pccard\" \"$DERIVED_SOURCES_DIR/IOKit/pccard\"";
+		};
+		2D9C1A76FFE6FEC111CA299A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = pio.h;
+			refType = 4;
+		};
+		2D9C1A77FFE6FEC111CA299A = {
+			fileRef = 2D9C1A76FFE6FEC111CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//2D0
+//2D1
+//2D2
+//2D3
+//2D4
+//C60
+//C61
+//C62
+//C63
+//C64
+		C60A85400E19104D00E01CA5 = {
+			children = (
+				C60A85410E19107900E01CA5,
+				C60A85430E19125100E01CA5,
+				C60A858B0E19178A00E01CA5,
+				C60A85920E1935B300E01CA5,
+			);
+			isa = PBXGroup;
+			name = trex;
+			refType = 4;
+		};
+		C60A85410E19107900E01CA5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = TREXPCCard16Bridge.cpp;
+			path = trex/TREXPCCard16Bridge.cpp;
+			refType = 4;
+		};
+		C60A85420E19107900E01CA5 = {
+			fileRef = C60A85410E19107900E01CA5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C60A85430E19125100E01CA5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = trexss.h;
+			path = trex/trexss.h;
+			refType = 4;
+		};
+		C60A85440E19125100E01CA5 = {
+			fileRef = C60A85430E19125100E01CA5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C60A858B0E19178A00E01CA5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = trexss.cpp;
+			path = trex/trexss.cpp;
+			refType = 4;
+		};
+		C60A858C0E19178A00E01CA5 = {
+			fileRef = C60A858B0E19178A00E01CA5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C60A85920E1935B300E01CA5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = TREXRegisters.h;
+			path = trex/TREXRegisters.h;
+			refType = 4;
+		};
+		C60A85930E1935B300E01CA5 = {
+			fileRef = C60A85920E1935B300E01CA5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C60A85940E19573100E01CA5 = {
+			fileRef = 084B1DE3FFA6B77611CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6341E590E5D063C00A80203 = {
+			fileRef = C6FDC10B0E2BFC0300004646;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6341E5A0E5D063D00A80203 = {
+			fileRef = C6FDC10C0E2BFC0300004646;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C637A9320F631A5C00BC35C8 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = ExtraHeaderStuff.h;
+			refType = 4;
+		};
+		C637A9330F631A5C00BC35C8 = {
+			fileRef = C637A9320F631A5C00BC35C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C637A9340F631A5C00BC35C8 = {
+			fileRef = C637A9320F631A5C00BC35C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C67AA4350E662AFD00A80203 = {
+			fileRef = 0DA325B4FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C67CE1DA0E2C34150009184C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = IOPCCardEjectController.h;
+			refType = 4;
+		};
+		C67CE1DB0E2C34150009184C = {
+			fileRef = C67CE1DA0E2C34150009184C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E8C0E6CA2B8009C3FC0 = {
+			buildPhases = (
+				C6AA5E8E0E6CA2B8009C3FC0,
+				C6AA5EAD0E6CA2B8009C3FC0,
+				C6AA5EAE0E6CA2B8009C3FC0,
+				C6AA5EB00E6CA2B8009C3FC0,
+				C6AA5EBE0E6CA2B8009C3FC0,
+				C6AA5EBF0E6CA2B8009C3FC0,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_VERSION = 2.x;
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_DEVELOPER_DIR)/xnu-123.5-headers\"";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.iokit.IOPCCardFamily;
+				MODULE_VERSION = 1.1.0;
+				OTHER_CFLAGS = " -no-cpp-precomp -D_BIG_ENDIAN -DTREX";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IOPCCardFamily;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = NO;
+				WARNING_CFLAGS = "-Wmost -fpermissive -Wno-four-char-constants  -Wno-unknown-pragmas -Wno-format";
+				WRAPPER_EXTENSION = kext;
+			};
+			dependencies = (
+				C6AA5E8D0E6CA2B8009C3FC0,
+			);
+			isa = PBXBundleTarget;
+			name = "IOPCCardFamily-TREX-Puma";
+			productName = IOPCCardFamily;
+			productReference = C6AA5EC00E6CA2B8009C3FC0;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>IOPCCardFamily</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.iokit.IOPCCardFamily</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>IOPCCardFamily</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>IOPCCardFamily</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOPCCardFamily</string>
+			<key>Configuration Settings</key>
+			<dict>
+				<key>PowerBook</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAAAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAK////8=
+						</data>
+					</array>
+				</dict>
+				<key>PowerBook1,1</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAAAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>PowerBook3,1</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						8gAAAPIAD/8=
+						</data>
+						<data>
+						8gAgAPIA//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>PowerBook3,2</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						8gAAAPIAj/8=
+						</data>
+						<data>
+						8gCgAPIA//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>PowerBook3,3</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						8gAAAPIAj/8=
+						</data>
+						<data>
+						8gCgAPIA//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>Test Machine</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAQAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>X86PC</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						AAABAAAABP8=
+						</data>
+						<data>
+						AAAIAAAACP8=
+						</data>
+						<data>
+						AAAMAAAADP8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						AAwAAAAP//8=
+						</data>
+						<data>
+						oAAAAKD///8=
+						</data>
+						<data>
+						YAAAAGD///8=
+						</data>
+					</array>
+				</dict>
+			</dict>
+			<key>Debug Settings</key>
+			<dict>
+				<key>Card Bus</key>
+				<integer>3</integer>
+				<key>Card Services</key>
+				<integer>3</integer>
+				<key>Driver Services</key>
+				<integer>4</integer>
+				<key>i82365</key>
+				<integer>2</integer>
+			</dict>
+			<key>IOClass</key>
+			<string>IOPCCardBridge</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOPCIClassMatch</key>
+			<string>0x06070000</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>TREXPCCard16Bridge</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOPCCardFamily</string>
+			<key>Configuration Settings</key>
+			<dict>
+				<key>AAPL,1400</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAQAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>Test Machine</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						/gAQAP4A//8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						kAAAAJ////8=
+						</data>
+					</array>
+				</dict>
+				<key>X86PC</key>
+				<dict>
+					<key>I/O Port Ranges</key>
+					<array>
+						<data>
+						AAABAAAABP8=
+						</data>
+						<data>
+						AAAIAAAACP8=
+						</data>
+						<data>
+						AAAMAAAADP8=
+						</data>
+					</array>
+					<key>Memory Ranges</key>
+					<array>
+						<data>
+						AAwAAAAP//8=
+						</data>
+						<data>
+						oAAAAKD///8=
+						</data>
+						<data>
+						YAAAAGD///8=
+						</data>
+					</array>
+				</dict>
+			</dict>
+			<key>Debug Settings</key>
+			<dict>
+				<key>Card Bus</key>
+				<integer>4</integer>
+				<key>Card Services</key>
+				<integer>4</integer>
+				<key>Driver Services</key>
+				<integer>4</integer>
+				<key>i82365</key>
+				<integer>4</integer>
+			</dict>
+			<key>IOClass</key>
+			<string>TREXPCCard16Bridge</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOPCIMatch</key>
+			<string>0x99999999</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.1.0</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.iokit</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.libkern</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.mach</key>
+		<string>1.0.0b1</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
+";
+		};
+		C6AA5E8D0E6CA2B8009C3FC0 = {
+			isa = PBXTargetDependency;
+			target = 2D9C1A5FFFE6DFA911CA299A;
+		};
+		C6AA5E8E0E6CA2B8009C3FC0 = {
+			buildActionMask = 2147483647;
+			files = (
+				C6AA5E8F0E6CA2B8009C3FC0,
+				C6AA5E900E6CA2B8009C3FC0,
+				C6AA5E910E6CA2B8009C3FC0,
+				C6AA5E920E6CA2B8009C3FC0,
+				C6AA5E930E6CA2B8009C3FC0,
+				C6AA5E940E6CA2B8009C3FC0,
+				C6AA5E950E6CA2B8009C3FC0,
+				C6AA5E960E6CA2B8009C3FC0,
+				C6AA5E970E6CA2B8009C3FC0,
+				C6AA5E980E6CA2B8009C3FC0,
+				C6AA5E990E6CA2B8009C3FC0,
+				C6AA5E9A0E6CA2B8009C3FC0,
+				C6AA5E9B0E6CA2B8009C3FC0,
+				C6AA5E9C0E6CA2B8009C3FC0,
+				C6AA5E9D0E6CA2B8009C3FC0,
+				C6AA5E9E0E6CA2B8009C3FC0,
+				C6AA5E9F0E6CA2B8009C3FC0,
+				C6AA5EA00E6CA2B8009C3FC0,
+				C6AA5EA10E6CA2B8009C3FC0,
+				C6AA5EA20E6CA2B8009C3FC0,
+				C6AA5EA30E6CA2B8009C3FC0,
+				C6AA5EA40E6CA2B8009C3FC0,
+				C6AA5EA50E6CA2B8009C3FC0,
+				C6AA5EA60E6CA2B8009C3FC0,
+				C6AA5EA70E6CA2B8009C3FC0,
+				C6AA5EA80E6CA2B8009C3FC0,
+				C6AA5EA90E6CA2B8009C3FC0,
+				C6AA5EAA0E6CA2B8009C3FC0,
+				C6AA5EAB0E6CA2B8009C3FC0,
+				C6AA5EAC0E6CA2B8009C3FC0,
+				C637A9330F631A5C00BC35C8,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA5E8F0E6CA2B8009C3FC0 = {
+			fileRef = 0DA325A1FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5E900E6CA2B8009C3FC0 = {
+			fileRef = 0DA325A4FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5E910E6CA2B8009C3FC0 = {
+			fileRef = 0DA325A8FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E920E6CA2B8009C3FC0 = {
+			fileRef = 2D9C1A76FFE6FEC111CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E930E6CA2B8009C3FC0 = {
+			fileRef = 0DA325B3FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E940E6CA2B8009C3FC0 = {
+			fileRef = 0DA325B5FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E950E6CA2B8009C3FC0 = {
+			fileRef = 0DA325B6FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E960E6CA2B8009C3FC0 = {
+			fileRef = 0DA325B7FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E970E6CA2B8009C3FC0 = {
+			fileRef = 0DA325B8FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E980E6CA2B8009C3FC0 = {
+			fileRef = 0DA325B9FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E990E6CA2B8009C3FC0 = {
+			fileRef = 0DA325BAFF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E9A0E6CA2B8009C3FC0 = {
+			fileRef = 0DA325C3FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5E9B0E6CA2B8009C3FC0 = {
+			fileRef = 0DA325C4FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5E9C0E6CA2B8009C3FC0 = {
+			fileRef = 0DA325C5FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5E9D0E6CA2B8009C3FC0 = {
+			fileRef = 0DA325C6FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5E9E0E6CA2B8009C3FC0 = {
+			fileRef = 0DA325C7FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5E9F0E6CA2B8009C3FC0 = {
+			fileRef = 0DA325C8FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EA00E6CA2B8009C3FC0 = {
+			fileRef = 0DA325C9FF6DB14C11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EA10E6CA2B8009C3FC0 = {
+			fileRef = 0DEAC1C9FF6DB67711CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EA20E6CA2B8009C3FC0 = {
+			fileRef = 0DA325D5FF6DB16F11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EA30E6CA2B8009C3FC0 = {
+			fileRef = 0DA325D6FF6DB16F11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EA40E6CA2B8009C3FC0 = {
+			fileRef = 18928F0BFF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EA50E6CA2B8009C3FC0 = {
+			fileRef = 18928F06FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EA60E6CA2B8009C3FC0 = {
+			fileRef = 084B1DE1FFA6B2ED11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EA70E6CA2B8009C3FC0 = {
+			fileRef = 18928F07FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EA80E6CA2B8009C3FC0 = {
+			fileRef = 18928F05FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EA90E6CA2B8009C3FC0 = {
+			fileRef = 0DA325A7FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EAA0E6CA2B8009C3FC0 = {
+			fileRef = C60A85430E19125100E01CA5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EAB0E6CA2B8009C3FC0 = {
+			fileRef = C60A85920E1935B300E01CA5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EAC0E6CA2B8009C3FC0 = {
+			fileRef = C67CE1DA0E2C34150009184C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EAD0E6CA2B8009C3FC0 = {
+			buildActionMask = 12;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$DERIVED_SOURCES_DIR/IOKit\" && ln -sf \"$SRCROOT/pccard\" \"$DERIVED_SOURCES_DIR/IOKit/pccard\"";
+		};
+		C6AA5EAE0E6CA2B8009C3FC0 = {
+			buildActionMask = 2147483647;
+			files = (
+				C6AA5EAF0E6CA2B8009C3FC0,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA5EAF0E6CA2B8009C3FC0 = {
+			fileRef = 089C167DFE841241C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EB00E6CA2B8009C3FC0 = {
+			buildActionMask = 2147483647;
+			files = (
+				C6AA5EB10E6CA2B8009C3FC0,
+				C6AA5EB20E6CA2B8009C3FC0,
+				C6AA5EB30E6CA2B8009C3FC0,
+				C6AA5EB40E6CA2B8009C3FC0,
+				C6AA5EB50E6CA2B8009C3FC0,
+				C6AA5EB60E6CA2B8009C3FC0,
+				C6AA5EB70E6CA2B8009C3FC0,
+				C6AA5EB80E6CA2B8009C3FC0,
+				C6AA5EB90E6CA2B8009C3FC0,
+				C6AA5EBA0E6CA2B8009C3FC0,
+				C6AA5EBB0E6CA2B8009C3FC0,
+				C6AA5EBC0E6CA2B8009C3FC0,
+				C6AA5EBD0E6CA2B8009C3FC0,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA5EB10E6CA2B8009C3FC0 = {
+			fileRef = 18928F08FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EB20E6CA2B8009C3FC0 = {
+			fileRef = 18928F09FF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EB30E6CA2B8009C3FC0 = {
+			fileRef = 18928F0AFF704AFF11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EB40E6CA2B8009C3FC0 = {
+			fileRef = 0DA3259DFF6DAF8811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EB50E6CA2B8009C3FC0 = {
+			fileRef = 0DA3259FFF6DAFAC11CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EB60E6CA2B8009C3FC0 = {
+			fileRef = 0DA325A2FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EB70E6CA2B8009C3FC0 = {
+			fileRef = 0DA325A3FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EB80E6CA2B8009C3FC0 = {
+			fileRef = 0DA325A6FF6DB01811CA299A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		C6AA5EB90E6CA2B8009C3FC0 = {
+			fileRef = C60A85410E19107900E01CA5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EBA0E6CA2B8009C3FC0 = {
+			fileRef = C60A858B0E19178A00E01CA5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EBB0E6CA2B8009C3FC0 = {
+			fileRef = 084B1DE3FFA6B77611CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EBC0E6CA2B8009C3FC0 = {
+			fileRef = C6FDC1080E2BFBEA00004646;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EBD0E6CA2B8009C3FC0 = {
+			fileRef = 0DA325B4FF6DB06911CA299A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6AA5EBE0E6CA2B8009C3FC0 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA5EBF0E6CA2B8009C3FC0 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA5EC00E6CA2B8009C3FC0 = {
+			isa = PBXBundleReference;
+			path = IOPCCardFamily.kext;
+			refType = 3;
+		};
+		C6FDC1080E2BFBEA00004646 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = IOPCCardEjectController.cpp;
+			refType = 4;
+		};
+		C6FDC1090E2BFBEA00004646 = {
+			fileRef = C6FDC1080E2BFBEA00004646;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6FDC10A0E2BFC0300004646 = {
+			children = (
+				C6FDC10B0E2BFC0300004646,
+				C6FDC10C0E2BFC0300004646,
+			);
+			isa = PBXGroup;
+			path = pmueject;
+			refType = 4;
+		};
+		C6FDC10B0E2BFC0300004646 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ApplePMUPCCardEject.cpp;
+			refType = 4;
+		};
+		C6FDC10C0E2BFC0300004646 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ApplePMUPCCardEject.h;
+			refType = 4;
+		};
+		C6FDC1160E2BFE1000004646 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+		};
+		C6FDC1170E2BFE1000004646 = {
+			buildActionMask = 2147483647;
+			files = (
+				C6341E5A0E5D063D00A80203,
+				C637A9340F631A5C00BC35C8,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDC1180E2BFE1000004646 = {
+			buildActionMask = 2147483647;
+			files = (
+				C6341E590E5D063C00A80203,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDC1190E2BFE1000004646 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDC11A0E2BFE1000004646 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDC11B0E2BFE1000004646 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+		};
+		C6FDC11C0E2BFE1000004646 = {
+			buildPhases = (
+				C6FDC1160E2BFE1000004646,
+				C6FDC1170E2BFE1000004646,
+				C6FDC1180E2BFE1000004646,
+				C6FDC1190E2BFE1000004646,
+				C6FDC11A0E2BFE1000004646,
+				C6FDC11B0E2BFE1000004646,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_VERSION = 2.x;
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_DEVELOPER_DIR)/xnu-123.5-headers\"";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.iokit.ApplePMUPCCardEject;
+				MODULE_VERSION = 1.0.0;
+				OTHER_CFLAGS = "-fpermissive -D_BIG_ENDIAN";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ApplePMUPCCardEject;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = NO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = kext;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = ApplePMUPCCardEject;
+			productName = ApplePMUPCCardEject;
+			productReference = C6FDC11D0E2BFE1000004646;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ApplePMUPCCardEject</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.iokit.ApplePMUPCCardEject</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ApplePMUPCCardEject</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>PC Card Eject - Lower Socket</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.ApplePMUPCCardEject</string>
+			<key>IOClass</key>
+			<string>ApplePMUPCCardEject</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOMatchCategory</key>
+			<string>IOPCCardEjectController</string>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>AAPL,pmu-socket-number</key>
+				<data>
+				AAAAAQ==
+				</data>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>PC Card Eject - Upper Socket</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.ApplePMUPCCardEject</string>
+			<key>IOClass</key>
+			<string>ApplePMUPCCardEject</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>IOMatchCategory</key>
+			<string>IOPCCardEjectController</string>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>AAPL,pmu-socket-number</key>
+				<data>
+				AAAAAg==
+				</data>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.0.0</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCCardFamily</key>
+		<string>1.1.0</string>
+		<key>com.apple.kernel.iokit</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.libkern</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.mach</key>
+		<string>1.0.0b1</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
+";
+		};
+		C6FDC11D0E2BFE1000004646 = {
+			isa = PBXBundleReference;
+			path = ApplePMUPCCardEject.kext;
+			refType = 3;
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

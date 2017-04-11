@@ -1,0 +1,14 @@
+if [ "${Target}" = "IOPCCardFamily-TREX-Cheetah" ]; then
+	Targets='InstallHeaders
+IOPCCardFamily-TREX-Cheetah'
+elif [ "${Target}" = "IOPCCardFamily-TREX-Puma" ]; then
+	Targets='InstallHeaders
+IOPCCardFamily-TREX-Puma'
+elif [ "${Target}" = "InstallHeaders" ]; then
+	Targets='InstallHeaders'
+elif [ "${Target}" = "ApplePMUPCCardEject" ]; then
+	Targets='ApplePMUPCCardEject'
+else
+	Targets='InstallHeaders
+IOPCCardFamily-TREX-Cheetah'
+fi

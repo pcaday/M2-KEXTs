@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	052E693B017CF4D202CA299A = {
+		activeExec = 0;
+	};
+	089C1669FE841209C02AAC07 = {
+		activeBuildStyle = 01A2A17AFF9D20B011CA29D1;
+		activeExecutable = C676107A0FD06FFA0036F5BF;
+		activeTarget = 089C1673FE841209C02AAC07;
+		addToTargets = (
+			089C1673FE841209C02AAC07,
+		);
+		executables = (
+			C676107A0FD06FFA0036F5BF,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 297095880;
+			PBXWorkspaceContents = (
+				{
+					LeftSlideOut = {
+						Split0 = {
+							Split0 = {
+								NavContent0 = {
+									bookmark = C651389C11C97F8A00F305D9;
+									history = (
+										C651388411C97F8A00F305D9,
+										C651388511C97F8A00F305D9,
+										C651388611C97F8A00F305D9,
+										C651388711C97F8A00F305D9,
+										C651388811C97F8A00F305D9,
+										C651388911C97F8A00F305D9,
+										C651388A11C97F8A00F305D9,
+										C651388B11C97F8A00F305D9,
+										C651388C11C97F8A00F305D9,
+										C651388D11C97F8A00F305D9,
+									);
+									prevStack = (
+										C651388E11C97F8A00F305D9,
+										C651388F11C97F8A00F305D9,
+										C651389011C97F8A00F305D9,
+										C651389111C97F8A00F305D9,
+										C651389211C97F8A00F305D9,
+										C651389311C97F8A00F305D9,
+										C651389411C97F8A00F305D9,
+										C651389511C97F8A00F305D9,
+										C651389611C97F8A00F305D9,
+										C651389711C97F8A00F305D9,
+										C651389811C97F8A00F305D9,
+										C651389911C97F8A00F305D9,
+										C651389A11C97F8A00F305D9,
+										C651389B11C97F8A00F305D9,
+									);
+								};
+								NavCount = 1;
+								NavGeometry0 = {
+									Frame = "{{0, 0}, {631, 585}}";
+									NavBarVisible = YES;
+								};
+								NavSplitVertical = NO;
+							};
+							SplitCount = 1;
+							Tab1 = {
+								Debugger = {
+									Split0 = {
+										SplitCount = 2;
+									};
+									SplitCount = 1;
+									TabCount = 2;
+								};
+								LauncherConfigVersion = 7;
+							};
+							Tab2 = {
+								LauncherConfigVersion = 3;
+								Runner = {
+								};
+							};
+							TabCount = 5;
+						};
+						SplitCount = 1;
+						Tab1 = {
+							OptionsSetName = "Hierarchy, all classes";
+						};
+						TabCount = 5;
+					};
+				},
+			);
+			PBXWorkspaceGeometries = (
+				{
+					ContentSize = "{915, 664}";
+					LeftSlideOut = {
+						ActiveTab = 0;
+						ActiveTabName = PBXGroupTreeModule;
+						Collapsed = NO;
+						Frame = "{{0, 23}, {915, 641}}";
+						Split0 = {
+							ActiveTab = 2;
+							ActiveTabName = PBXBuildResultsModule;
+							Collapsed = NO;
+							Frame = "{{284, 0}, {631, 641}}";
+							Split0 = {
+								Frame = "{{0, 56}, {631, 585}}";
+							};
+							SplitCount = 1;
+							Tab0 = {
+								Frame = "{{0, 0}, {681, 289}}";
+							};
+							Tab1 = {
+								Debugger = {
+									Collapsed = NO;
+									Frame = "{{0, 0}, {681, 150}}";
+									Split0 = {
+										Frame = "{{0, 24}, {681, 126}}";
+										Split0 = {
+											Frame = "{{0, 0}, {333, 126}}";
+										};
+										Split1 = {
+											DebugVariablesTableConfiguration = (
+												Name,
+												123,
+												Value,
+												85,
+												Summary,
+												105.123,
+											);
+											Frame = "{{342, 0}, {339, 126}}";
+										};
+										SplitCount = 2;
+									};
+									SplitCount = 1;
+									Tab0 = {
+										Frame = "{{0, 0}, {100, 50}}";
+									};
+									Tab1 = {
+										Frame = "{{0, 0}, {100, 50}}";
+									};
+									TabCount = 2;
+									TabsVisible = YES;
+								};
+								Frame = "{{0, 0}, {681, 120}}";
+								LauncherConfigVersion = 7;
+							};
+							Tab2 = {
+								Frame = "{{0, 0}, {681, 234}}";
+								LauncherConfigVersion = 3;
+								Runner = {
+									Frame = "{{0, 0}, {681, 234}}";
+								};
+							};
+							Tab3 = {
+								BuildMessageFrame = "{{0, 0}, {633, 13}}";
+								BuildTranscriptFrame = "{{0, 22}, {633, 6}}";
+								BuildTranscriptFrameExpanded = YES;
+								Frame = "{{0, 0}, {631, 50}}";
+							};
+							Tab4 = {
+								Frame = "{{0, 0}, {612, 295}}";
+							};
+							TabCount = 5;
+							TabsVisible = NO;
+						};
+						SplitCount = 1;
+						Tab0 = {
+							Frame = "{{0, 0}, {260, 641}}";
+							GroupTreeTableConfiguration = (
+								TargetStatusColumn,
+								18,
+								MainColumn,
+								227,
+							);
+						};
+						Tab1 = {
+							ClassesFrame = "{{0, 0}, {250, 333}}";
+							ClassesTreeTableConfiguration = (
+								PBXBookColumnIdentifier,
+								20,
+								PBXClassColumnIdentifier,
+								207,
+							);
+							Frame = "{{0, 0}, {248, 554}}";
+							MembersFrame = "{{0, 342}, {250, 212}}";
+							MembersTreeTableConfiguration = (
+								PBXBookColumnIdentifier,
+								20,
+								PBXMethodColumnIdentifier,
+								206,
+							);
+						};
+						Tab2 = {
+							Frame = "{{0, 0}, {217, 554}}";
+						};
+						Tab3 = {
+							Frame = "{{0, 0}, {239, 554}}";
+							TargetTableConfiguration = (
+								ActiveObject,
+								16,
+								ObjectNames,
+								206.296,
+							);
+						};
+						Tab4 = {
+							BreakpointsTreeTableConfiguration = (
+								breakpointColumn,
+								197,
+								enabledColumn,
+								31,
+							);
+							Frame = "{{0, 0}, {250, 554}}";
+						};
+						TabCount = 5;
+						TabsVisible = YES;
+					};
+					NavBarShownByDefault = YES;
+					StatusViewVisible = YES;
+					Template = 64ABBB4501FA494900185B06;
+					ToolbarVisible = YES;
+					WindowLocation = "{80, 20}";
+				},
+			);
+			PBXWorkspaceStateSaveDate = 297095880;
+		};
+		perUserProjectItems = {
+			C651388411C97F8A00F305D9 = C651388411C97F8A00F305D9;
+			C651388511C97F8A00F305D9 = C651388511C97F8A00F305D9;
+			C651388611C97F8A00F305D9 = C651388611C97F8A00F305D9;
+			C651388711C97F8A00F305D9 = C651388711C97F8A00F305D9;
+			C651388811C97F8A00F305D9 = C651388811C97F8A00F305D9;
+			C651388911C97F8A00F305D9 = C651388911C97F8A00F305D9;
+			C651388A11C97F8A00F305D9 = C651388A11C97F8A00F305D9;
+			C651388B11C97F8A00F305D9 = C651388B11C97F8A00F305D9;
+			C651388C11C97F8A00F305D9 = C651388C11C97F8A00F305D9;
+			C651388D11C97F8A00F305D9 = C651388D11C97F8A00F305D9;
+			C651388E11C97F8A00F305D9 = C651388E11C97F8A00F305D9;
+			C651388F11C97F8A00F305D9 = C651388F11C97F8A00F305D9;
+			C651389011C97F8A00F305D9 = C651389011C97F8A00F305D9;
+			C651389111C97F8A00F305D9 = C651389111C97F8A00F305D9;
+			C651389211C97F8A00F305D9 = C651389211C97F8A00F305D9;
+			C651389311C97F8A00F305D9 = C651389311C97F8A00F305D9;
+			C651389411C97F8A00F305D9 = C651389411C97F8A00F305D9;
+			C651389511C97F8A00F305D9 = C651389511C97F8A00F305D9;
+			C651389611C97F8A00F305D9 = C651389611C97F8A00F305D9;
+			C651389711C97F8A00F305D9 = C651389711C97F8A00F305D9;
+			C651389811C97F8A00F305D9 = C651389811C97F8A00F305D9;
+			C651389911C97F8A00F305D9 = C651389911C97F8A00F305D9;
+			C651389A11C97F8A00F305D9 = C651389A11C97F8A00F305D9;
+			C651389B11C97F8A00F305D9 = C651389B11C97F8A00F305D9;
+			C651389C11C97F8A00F305D9 = C651389C11C97F8A00F305D9;
+		};
+		projectwideBuildSettings = {
+		};
+		wantsIndex = 1;
+		wantsSCM = -1;
+	};
+	089C1673FE841209C02AAC07 = {
+		activeExec = 0;
+	};
+	2D9C1A5FFFE6DFA911CA299A = {
+		activeExec = 0;
+		executables = (
+			C676107A0FD06FFA0036F5BF,
+		);
+	};
+	C651388411C97F8A00F305D9 = {
+		fRef = C67610C40FD072BE0036F5BF;
+		isa = PBXTextBookmark;
+		name = "TREXPCCard16Bridge.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 99;
+	};
+	C651388511C97F8A00F305D9 = {
+		fRef = 18928F0AFF704AFF11CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCardSupport.cpp: 163";
+		rLen = 15;
+		rLoc = 4407;
+		rType = 0;
+		vrLen = 1102;
+		vrLoc = 3938;
+	};
+	C651388611C97F8A00F305D9 = {
+		fRef = 18928F09FF704AFF11CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCardDevices.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1964;
+		vrLoc = 0;
+	};
+	C651388711C97F8A00F305D9 = {
+		fRef = C67610C60FD072BE0036F5BF;
+		isa = PBXTextBookmark;
+		name = "trexss.c: reg2";
+		rLen = 15;
+		rLoc = 9713;
+		rType = 0;
+		vrLen = 1369;
+		vrLoc = 17288;
+	};
+	C651388811C97F8A00F305D9 = {
+		fRef = 084B1DE3FFA6B77611CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCard16Enabler.cpp: 196";
+		rLen = 28;
+		rLoc = 6439;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 6912;
+	};
+	C651388911C97F8A00F305D9 = {
+		fRef = 18928F08FF704AFF11CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCardBridge.cpp: socket_info_t";
+		rLen = 15;
+		rLoc = 53240;
+		rType = 0;
+		vrLen = 1280;
+		vrLoc = 53203;
+	};
+	C651388A11C97F8A00F305D9 = {
+		fRef = 0DA325A4FF6DB01811CA299A;
+		isa = PBXTextBookmark;
+		name = "cs_internal.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	C651388B11C97F8A00F305D9 = {
+		fRef = 0DA325A3FF6DB01811CA299A;
+		isa = PBXTextBookmark;
+		name = "cs.c: request_configuration";
+		rLen = 0;
+		rLoc = 53511;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 52304;
+	};
+	C651388C11C97F8A00F305D9 = {
+		fRef = 0DA325A6FF6DB01811CA299A;
+		isa = PBXTextBookmark;
+		name = "i82365.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 1899;
+	};
+	C651388D11C97F8A00F305D9 = {
+		fRef = C651389D11C97F8A00F305D9;
+		isa = PBXTextBookmark;
+		name = "SWPCCardPatch.cpp: 42";
+		rLen = 1151;
+		rLoc = 1464;
+		rType = 0;
+		vrLen = 1550;
+		vrLoc = 1387;
+	};
+	C651388E11C97F8A00F305D9 = {
+		fRef = C67610C60FD072BE0036F5BF;
+		isa = PBXTextBookmark;
+		name = "trexss.c: reg2";
+		rLen = 15;
+		rLoc = 9713;
+		rType = 0;
+		vrLen = 1369;
+		vrLoc = 17288;
+	};
+	C651388F11C97F8A00F305D9 = {
+		fRef = C67610C40FD072BE0036F5BF;
+		isa = PBXTextBookmark;
+		name = "TREXPCCard16Bridge.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 99;
+	};
+	C651389011C97F8A00F305D9 = {
+		fRef = 18928F08FF704AFF11CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCardBridge.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1818;
+		vrLoc = 0;
+	};
+	C651389111C97F8A00F305D9 = {
+		fRef = 18928F0AFF704AFF11CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCardSupport.cpp: 163";
+		rLen = 15;
+		rLoc = 4407;
+		rType = 0;
+		vrLen = 1102;
+		vrLoc = 3938;
+	};
+	C651389211C97F8A00F305D9 = {
+		fRef = 18928F09FF704AFF11CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCardDevices.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1964;
+		vrLoc = 0;
+	};
+	C651389311C97F8A00F305D9 = {
+		fRef = 084B1DE3FFA6B77611CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCard16Enabler.cpp: 95";
+		rLen = 23;
+		rLoc = 3987;
+		rType = 0;
+		vrLen = 1312;
+		vrLoc = 17647;
+	};
+	C651389411C97F8A00F305D9 = {
+		fRef = C67610C60FD072BE0036F5BF;
+		isa = PBXTextBookmark;
+		name = "trexss.c: reg2";
+		rLen = 15;
+		rLoc = 9713;
+		rType = 0;
+		vrLen = 1369;
+		vrLoc = 17288;
+	};
+	C651389511C97F8A00F305D9 = {
+		fRef = 0DA325A6FF6DB01811CA299A;
+		isa = PBXTextBookmark;
+		name = "i82365.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1950;
+		vrLoc = 0;
+	};
+	C651389611C97F8A00F305D9 = {
+		fRef = 084B1DE3FFA6B77611CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCard16Enabler.cpp: 196";
+		rLen = 28;
+		rLoc = 6439;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 6912;
+	};
+	C651389711C97F8A00F305D9 = {
+		fRef = 18928F08FF704AFF11CA299A;
+		isa = PBXTextBookmark;
+		name = "IOPCCardBridge.cpp: socket_info_t";
+		rLen = 15;
+		rLoc = 53240;
+		rType = 0;
+		vrLen = 1280;
+		vrLoc = 53203;
+	};
+	C651389811C97F8A00F305D9 = {
+		fRef = 0DA325A3FF6DB01811CA299A;
+		isa = PBXTextBookmark;
+		name = "cs.c: request_configuration";
+		rLen = 0;
+		rLoc = 53511;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 52304;
+	};
+	C651389911C97F8A00F305D9 = {
+		fRef = 0DA325A4FF6DB01811CA299A;
+		isa = PBXTextBookmark;
+		name = "cs_internal.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	C651389A11C97F8A00F305D9 = {
+		fRef = 0DA325A3FF6DB01811CA299A;
+		isa = PBXTextBookmark;
+		name = "cs.c: request_configuration";
+		rLen = 0;
+		rLoc = 53511;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 52304;
+	};
+	C651389B11C97F8A00F305D9 = {
+		fRef = 0DA325A6FF6DB01811CA299A;
+		isa = PBXTextBookmark;
+		name = "i82365.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 1899;
+	};
+	C651389C11C97F8A00F305D9 = {
+		fRef = C651389E11C97F8A00F305D9;
+		isa = PBXTextBookmark;
+		name = "SWPCCardPatch.cpp: 38";
+		rLen = 0;
+		rLoc = 1387;
+		rType = 0;
+		vrLen = 1464;
+		vrLoc = 0;
+	};
+	C651389D11C97F8A00F305D9 = {
+		isa = PBXFileReference;
+		name = SWPCCardPatch.cpp;
+		path = "/Users/thewax/M2 KEXTs/SWPCCardPatch/SWPCCardPatch.cpp";
+		refType = 0;
+	};
+	C651389E11C97F8A00F305D9 = {
+		isa = PBXFileReference;
+		name = SWPCCardPatch.cpp;
+		path = "/Users/thewax/M2 KEXTs/SWPCCardPatch/SWPCCardPatch.cpp";
+		refType = 0;
+	};
+	C676107A0FD06FFA0036F5BF = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = InstallHeaders;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+}
